@@ -1,0 +1,123 @@
+/* --------------- BODY --------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: #f6f6f6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  display: block;
+  margin: 0 0 100px;
+}
+
+h1 {
+  color: #ffcccc;
+  font-size: 30px;
+}
+
+h2 {
+  color: #ffcccc;
+}
+
+/* --------------- a --------------- */
+
+a {
+  text-decoration: none;
+  color: #ffcccc;
+}
+
+/* --------------- ul --------------- */
+
+ul {
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+/* --------------- PROFILE --------------- */
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-pink {
+  background-color: #FFCCCC;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* --------------- CARD --------------- */
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2)
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+/* --------------- wrapper --------------- */
+
+#wrapper {
+  padding: 0px;
+  width: 1200px;
+  margin: 20px auto;
+  border-radius: 2px;
+
+}
+
+#left-container {
+  width: 35%;
+  float: left;
+  min-height: 600px;
+
+}
+
+#left-container .card:first-child {
+  min-height: 350px;
+}
+
+#right-container {
+  width: 62%;
+  float: right;
+  min-height: 600px;
+}
+
+#right-container .card {
+  min-height: 530px;
+
+}
+
+/* --------------- footer --------------- */
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+}
